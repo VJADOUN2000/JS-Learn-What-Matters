@@ -25,3 +25,18 @@ let num =10;
 for(let i=0;i<num;i++){
     console.log(i);
 }
+
+//Print even number from 1 to 20
+
+
+let v= 20;
+for(let i=1;i<=20;i++){
+   if(i%2==0){
+      console.log(i)
+   }
+}
+
+//Print nu,ber 1 to 15 using while loop
+
+
+
