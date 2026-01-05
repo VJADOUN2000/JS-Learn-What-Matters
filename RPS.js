@@ -133,3 +133,5 @@ while(num >0){
     count++;
 }
 console.log(count)
+
+// starting of Function 
