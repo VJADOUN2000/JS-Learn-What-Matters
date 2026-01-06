@@ -102,23 +102,23 @@
 
 // Q2. print number from 1 to 20 and skip number which are mutliple of 3
 
-for(let i=1;i<=20;i++){
-    if(i%3===0){
-        continue;
-    }
-    console.log(i);
-}
+// for(let i=1;i<=20;i++){
+//     if(i%3===0){
+//         continue;
+//     }
+//     console.log(i);
+// }
 
-// Q3. Print first 5 odd number only
+// // Q3. Print first 5 odd number only
 
-let counter =0;
-for(let i=1;i<=100;i++){
-    if(i%2!==0){
-        console.log(i)
-        counter++;
-    }
-    if(counter>4)  break;
-}
+// let counter =0;
+// for(let i=1;i<=100;i++){
+//     if(i%2!==0){
+//         console.log(i)
+//         counter++;
+//     }
+//     if(counter>4)  break;
+// }
 
 
 // To check how many digit in a number
@@ -135,3 +135,23 @@ while(num >0){
 console.log(count)
 
 // starting of Function 
+
+//what is function & what is function
+
+ // functions are block of reusable logic in a code
+
+function fun(){  ///===============> Function declearation
+    console.log("Happy New Year 2026")
+}
+
+let num1 = function () { //===============> function expression
+    console.log("heyheyhey")
+}
+
+num1();
+
+// fat Arrow Functions
+
+let num2 =()=>{   //============> function
+
+}
