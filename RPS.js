@@ -140,7 +140,7 @@ console.log(count)
 
  // functions are block of reusable logic in a code
 
-function fun(){  ///===============> Function declearation
+function fun(){  ///===============> Function declaration
     console.log("Happy New Year 2026")
 }
 
