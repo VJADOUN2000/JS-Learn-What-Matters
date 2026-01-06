@@ -155,3 +155,24 @@ num1();
 let num2 =()=>{   //============> function
 
 }
+
+
+//===============================================
+
+function dance(Name){
+    console.log(`${Name} naach raha hai`)
+}
+
+dance("gaada");
+dance("ghoda");
+dance("chuha");
+dance("bille");
+
+function multi(a,b,c){ //=============> perameter
+    console.log(a*b*c)
+}
+
+multi(45,89,75);  //===> arguments
+
+//=========================> 
+    // Default, rest and spread parameters
