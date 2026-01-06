@@ -176,3 +176,16 @@ multi(45,89,75);  //===> arguments
 
 //=========================> 
     // Default, rest and spread parameters
+
+function cd(q=0,e=0){   //====>  default parameters
+    console.log(q+e);
+}
+
+cd();
+
+
+function fdfd(...gdfd){
+ console.log(gdfd)
+}
+
+fdfd(4,4,5,6,3,2,1);
