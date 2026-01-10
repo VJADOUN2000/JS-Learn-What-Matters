@@ -199,3 +199,41 @@ function fgh(){
 }
 
  let val = fgh();
+
+
+ // first class function
+
+ //=> function ko values ki tara treat kar sakte hai
+
+ function f1(val){
+    val();
+ }
+
+f1(function(){
+    console.log(123);
+});
+
+
+// higher order function
+
+//hof wo function hote hai jo ki return kare function ys fir accept kare function
+
+
+function abc(par){   // ==>  Higher order function
+    par();
+}
+
+abc(function(){
+    console.log("78");
+})
+
+
+///or
+
+function ABC(){
+    return function(){
+        console.log("456");
+    }
+}
+
+ABC()();
