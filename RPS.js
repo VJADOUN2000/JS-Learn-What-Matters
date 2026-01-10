@@ -183,9 +183,19 @@ function cd(q=0,e=0){   //====>  default parameters
 
 cd();
 
-
+// rest 
 function fdfd(...gdfd){
  console.log(gdfd)
 }
 
 fdfd(4,4,5,6,3,2,1);
+
+// returm & and early return
+
+//Matlab jaha se aaye hu wahi daal denge 
+
+function fgh(){
+    return 45; 
+}
+
+ let val = fgh();
