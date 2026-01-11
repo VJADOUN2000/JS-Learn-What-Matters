@@ -134,7 +134,7 @@ while(num >0){
 }
 console.log(count)
 
-// starting of Function 
+// =======================starting of Function =========================================>
 
 //what is function & what is function
 
@@ -206,7 +206,7 @@ function fgh(){
  //=> function ko values ki tara treat kar sakte hai
 
  // revison => FCS is like treating function as a real value
- 
+
 
  function f1(val){
     val();
@@ -240,3 +240,49 @@ function ABC(){
 }
 
 ABC()();
+
+
+//============ pure vs impure function
+
+
+// asia function jo ki baahar ki value ko naa badle wo pure function hai
+
+//Example of pure function
+
+let a =45;
+
+ function dsd(){
+    console.log(a);
+ }
+
+
+ function hui(){
+     a++;
+ }
+
+// asia function jo baahar ki value badal de wo impure function hai
+
+
+//Concept Closures and Lexical scoping
+
+// closures --> ek function  jo return kare ek aur function aur return hone waala function humesha youse karega parent function ka koi variable
+
+function dsda(){
+    let kj=45;
+    return function(){
+        console.log(kj);
+    }
+}
+
+// lexical scoping --> Inner functiuon can access outer function, but outer function cannot access inner function variable 
+
+
+function lex(){
+    let a=45;
+    function xel(){
+        let b= 85;
+    }
+    console.log(b);
+}
+
+
