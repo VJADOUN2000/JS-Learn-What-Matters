@@ -205,6 +205,9 @@ function fgh(){
 
  //=> function ko values ki tara treat kar sakte hai
 
+ // revison => FCS is like treating function as a real value
+ 
+
  function f1(val){
     val();
  }
