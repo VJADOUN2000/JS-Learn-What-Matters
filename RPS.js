@@ -274,6 +274,7 @@ function dsda(){
     }
 }
 
+dsda()();
 // lexical scoping --> Inner functiuon can access outer function, but outer function cannot access inner function variable 
 
 
@@ -284,5 +285,18 @@ function lex(){
     }
     console.log(b);
 }
+
+
+//======================IIFE (Immediately Involed Function Expression)==>
+
+    (function(){
+
+    })();
+
+// ====================Hoisting difference between  declaration and expression====/
+
+
+
+
 
 
