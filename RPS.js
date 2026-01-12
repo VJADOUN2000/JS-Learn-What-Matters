@@ -295,6 +295,16 @@ function lex(){
 
 // ====================Hoisting difference between  declaration and expression====/
 
+abcddsd();
+
+function abcddsd(){
+    console.log("Vikrant Singh")
+}
+
+
+/// => cannot Hoist while using variable to store a function and then call it before creating it
+
+
 
 
 
