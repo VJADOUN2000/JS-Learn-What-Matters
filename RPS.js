@@ -304,9 +304,59 @@ function abcddsd(){
 
 /// => cannot Hoist while using variable to store a function and then call it before creating it
 
+////===============================Pactice Question=========================================>
+
+//Q1. What's the difference between function declaration and expression in terms of hoisting?
+
+//Answer
+
+//   asdsd();
+
+// let asdsd =function (){
+//     console.log("dsdsdsd")
+// }
+
+// 3. Conver below function in arrow func.
+
+// function multiply(a,b){
+//     return a*b;
+// }
+
+// let arrow = (a,b)=>{
+//     return (a*b);
+// }
+
+// console.log(arrow(45,10))
+
+//4. identify what is argument and parameters
+
+function greet(name){  ///===========parameters
+    console.log(name)
+}
+
+greet ("Vikrant");  // ============Arguments
+
+//5. how many arguments & parameters
+
+function demo (a,b,c){}  // ========3 parameters
+
+demo (54,75);   ///  ======= 2 arguments
+
+
+//5. simple function guessing the output if no argument is given ==> Solution is default value is used if not argument is passed
 
 
 
+///7. what (...) in function
 
+function spd(a,g,b,...rest){
+    console.log(a,g,b,rest)
+}
+
+spd(4,8,65,45,12,87,5,654,55,45,4,5,54,5,5,4);
+
+
+
+//8.  
 
 
