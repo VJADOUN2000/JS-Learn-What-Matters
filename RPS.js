@@ -413,3 +413,23 @@ f1(function(){
 })
 
 console.log(ds);
+
+//14. what is higher order function
+
+//Answer function which either accept function as parameters and return function
+
+
+//example
+
+function HOF(){   /// ============HOF
+    return function(){
+        console.log("Testing")
+    }
+}
+
+
+//15. Check which is HOF
+
+[1,2,3].map(function(x){  // ==================> map is higher order function
+    return x*2
+});
