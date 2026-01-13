@@ -433,3 +433,25 @@ function HOF(){   /// ============HOF
 [1,2,3].map(function(x){  // ==================> map is higher order function
     return x*2
 });
+
+// 16. simple check if the function is pure or impure
+
+//17. And Now conver impure to pure
+
+let total =0;
+function getTotal(val){
+    let newtotal= total;
+    newtotal+= val;
+}
+
+
+//18 what is closure ?When it is created? 
+
+function cls(){
+    let val2 =45;
+    return function(){
+        console.log(val2);
+    }
+}
+
+console.log(cls())
