@@ -357,6 +357,59 @@ spd(4,8,65,45,12,87,5,654,55,45,4,5,54,5,5,4);
 
 
 
-//8.  
+//8. Use Rest Operato to accept any number of scores and return the total.
+
+function getScore(...scores){
+    let total=0;
+    scores.forEach(function(values){
+        total += values;
+    });
+     return total;
+}
+
+console.log(getScore(45,78,45,65));
 
 
+//9  using early reurn to make it short and simple
+
+function Checkage(age){
+    if(age<18) return "Too Young";
+    return "allowed";
+}
+
+console.log(Checkage(17));
+
+//10. what is this function return like empty ====> Undefined
+
+function f(){
+    return ;
+}
+
+console.log(f());
+
+
+// 11. whHAT IS MEAN BY FIRST CLASS FUNCTION 
+
+//aNSWER ===> fUNCTION WHICH IS TREATED AS REAL VALUES 
+
+
+
+//12. ASSIGN FUNCTION TO A VARIABLE AND THEN CALL IT
+
+let val1 = function(){
+    console.log("Function assigned to variable");
+}
+
+val1();
+
+//13. Pass a function into anothher function and execute it
+
+let ds = function f1(val){
+    val();
+}
+
+f1(function(){
+    console.log("Function 2")
+})
+
+console.log(ds);
