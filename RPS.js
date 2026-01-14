@@ -470,3 +470,46 @@ let counter = outer();
 
 counter();
 counter();
+
+
+
+//20 Convert function into IIFE
+
+(function init(){
+    console.log("Initialized");
+})();
+
+//21 what is use of IIFE function?Name one real world use case
+
+const counter1 = (function () {
+  let count = 0;
+
+  return {
+    increment() {
+      count++;
+      console.log(count);
+    }
+  };
+})();
+
+counter1.increment(); // 1
+counter1.increment(); // 2
+
+
+//22 what will be ouput here and why?
+
+// greet1();
+
+// let greet1 = function(){
+//     console.log("Hoisting in function expression");
+// }                               //    ==============> cannot access greet1
+
+
+//===================But in this example below=================>
+
+greet2();
+
+function greet2(){
+    console.log("Hoisting in Function statement");
+}
+
