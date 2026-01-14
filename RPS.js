@@ -521,4 +521,5 @@ let result= function BMI(weight, height){
     return weight/ (height*height)
 }
 
-console.log(result(65,1.8).toFixed(2));
+console.log(result(65,1.8).toFixed(4));
+
