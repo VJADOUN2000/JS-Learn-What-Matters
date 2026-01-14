@@ -447,11 +447,26 @@ function getTotal(val){
 
 //18 what is closure ?When it is created? 
 
-function cls(){
-    let val2 =45;
+// function cls(){
+//     let val2 =45;
+//     return function(){
+//         console.log(val2);
+//     }
+// }
+
+// console.log(cls())
+
+//19. Check the Output of Function
+
+function outer(){
+    let count =0;
     return function(){
-        console.log(val2);
+        count++;
+        console.log(count);
     }
 }
 
-console.log(cls())
+let counter = outer();
+
+counter();
+counter();
