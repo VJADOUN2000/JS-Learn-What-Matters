@@ -523,3 +523,5 @@ let result= function BMI(weight, height){
 
 console.log(result(65,1.8).toFixed(4));
 
+
+// Create a reusable discount calculator (HOF)
