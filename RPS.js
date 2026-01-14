@@ -513,3 +513,12 @@ function greet2(){
     console.log("Hoisting in Function statement");
 }
 
+//***************************PRACTICE TASK******************************************* */
+
+// Write BMI Calculator
+
+let result= function BMI(weight, height){
+    return weight/ (height*height)
+}
+
+console.log(Math.round(result(65,1.7)));
