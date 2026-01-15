@@ -568,3 +568,15 @@ console.log(a1());
 
 console.log(a2());
 console.log(a2());
+
+
+
+// Create a pure function to transform a value
+
+
+function double(val){
+    return val*2;
+}
+
+console.log(double(45));
+
