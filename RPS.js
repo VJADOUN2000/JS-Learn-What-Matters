@@ -538,4 +538,33 @@ function discountCalculator(discount){
 
 // console.log(discounter(500));
 
- let ten  = discountCalculator(10)
+ let ten  = discountCalculator(10);
+ let twenty = discountCalculator(20);
+
+
+console.log(ten(1000));
+console.log(twenty(1000));
+
+
+// Example of Counter
+
+
+function counter5(){
+    let count =0;
+    return function(){
+        count++
+        return count;
+    }
+}
+
+
+let a1 = counter5();
+let a2 = counter5();
+
+
+console.log(a1());
+console.log(a1());
+console.log(a1());
+
+console.log(a2());
+console.log(a2());
