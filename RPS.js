@@ -527,9 +527,9 @@ console.log(result(65,1.8).toFixed(4));
 // Create a reusable discount calculator (HOF)
 
 
-function discountCalculator(){
+function discountCalculator(discount){
     return function(price){
-        return price -price*0.1
+        return price -price*(discount/100)
     }
 }
 
