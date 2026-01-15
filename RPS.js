@@ -525,3 +525,15 @@ console.log(result(65,1.8).toFixed(4));
 
 
 // Create a reusable discount calculator (HOF)
+
+
+function discountCalculator(){
+    return function(price){
+        return price -price*0.1
+    }
+}
+
+
+ let discounter = discountCalculator(10)
+
+console.log(discounter(500));
