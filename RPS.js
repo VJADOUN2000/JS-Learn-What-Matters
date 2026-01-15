@@ -534,6 +534,8 @@ function discountCalculator(discount){
 }
 
 
- let discounter = discountCalculator(10)
+//  let discounter = discountCalculator(10)
 
-console.log(discounter(500));
+// console.log(discounter(500));
+
+ let ten  = discountCalculator(10)
