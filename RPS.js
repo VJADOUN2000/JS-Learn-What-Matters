@@ -589,3 +589,17 @@ console.log(double(45));
 
 // ==============It is used to hide variable and not pollute global var . & runs immediatley after declare
 
+
+
+
+
+//when to use normal function vs fat arrrow function
+// Don't use arrow function in object as we loose this.return 
+
+
+//===============================Arrays====================================================>
+
+
+let arr = [45,65,45,21,54,"Vikrant"]
+
+console.log(arr[2]);
