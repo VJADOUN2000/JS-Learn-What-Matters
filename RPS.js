@@ -623,3 +623,8 @@ arr.pop();  //==============================> remove value from the end of array
 console.log(arr);
 
 
+arr.shift();    //========================> Remove value from satrting Of array
+console.log(arr);  
+
+arr.unshift(123);  //=================================array mei suruat mei value add karta hai ye method 
+ console.log(arr); 
