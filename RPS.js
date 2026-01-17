@@ -610,3 +610,16 @@ arr[3]= 40; // modifying arrray
 
 console.log(arr);
 
+
+//=============Arry Methods========================================>
+
+//1. Push
+
+arr.push(4500); //============================= add value at the end of array
+console.log(arr);
+
+
+arr.pop();  //==============================> remove value from the end of array
+console.log(arr);
+
+
