@@ -580,3 +580,12 @@ function double(val){
 
 console.log(double(45));
 
+// Use IIFE  to isolate Variable
+
+(function IIFE(){
+    const  password= "secret password";
+    console.log(password)     
+})();
+
+// ==============It is used to hide variable and not pollute global var . & runs immediatley after declare
+
