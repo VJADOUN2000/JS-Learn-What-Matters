@@ -591,8 +591,6 @@ console.log(double(45));
 
 
 
-
-
 //when to use normal function vs fat arrrow function
 // Don't use arrow function in object as we loose this.return 
 
@@ -600,6 +598,15 @@ console.log(double(45));
 //===============================Arrays====================================================>
 
 
-let arr = [45,65,45,21,54,"Vikrant"]
+//let arr = [45,65,45,21,54,"Vikrant",true]  // creating
 
-console.log(arr[2]);
+//Or
+
+arr = new Array(45,65,45,21,54,"Vikrant",true)  //==> SECOND WAY OF CREATING ARRRAY USING new Array
+
+console.log(arr[5]); // accessing element 
+
+arr[3]= 40; // modifying arrray
+
+console.log(arr);
+
