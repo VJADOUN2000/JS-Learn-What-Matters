@@ -628,3 +628,10 @@ console.log(arr);
 
 arr.unshift(123);  //=================================array mei suruat mei value add karta hai ye method 
  console.log(arr); 
+
+//==================Arry slice method=========================>
+
+arr.slice(2,5)    // Give array from range mention like from including start to excluding ending range in slice method
+
+///Answer is [45,21,54]
+
