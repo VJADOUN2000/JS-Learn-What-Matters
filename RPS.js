@@ -639,3 +639,16 @@ arr.slice(2,5)    // Give array from range mention like from including start to 
 
 
 arr.splice(2,3)
+
+
+//=====================Reverse method  ==============>
+
+    arr.reverse();   //most simple and easy and use to reverse the order in array
+
+//=======================Sort method=================>
+
+let arr1 =[45,865,46,78,452,45]
+
+let sr = arr1.sort(function(a,b){
+    return b-a;
+})
