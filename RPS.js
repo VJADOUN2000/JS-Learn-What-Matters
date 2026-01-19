@@ -631,7 +631,11 @@ arr.unshift(123);  //=================================array mei suruat mei value
 
 //==================Arry slice method=========================>
 
-arr.slice(2,5)    // Give array from range mention like from including start to excluding ending range in slice method
+arr.slice(2,5)    // Give array from range mention like from including start to excluding ending range in slice method  ===> It not chnage orginal aary
 
 ///Answer is [45,21,54]
 
+// What is splice -> It chnages the orginal arrry
+
+
+arr.splice(2,3)
