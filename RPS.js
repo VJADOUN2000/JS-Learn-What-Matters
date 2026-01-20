@@ -654,5 +654,11 @@ let sr = arr1.sort(function(a,b){
 })
 
 
-//=========================Map method in Array ======================>
-    
+//Important Note: Sort, map, reduce, filter & foreach all accept function 
+
+//=========================ForEach method in Array ======================>
+
+arr1.forEach(function(val){
+    console.log(val+5)
+})
+
