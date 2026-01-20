@@ -673,4 +673,15 @@ arr1.forEach(function(val){
  // map dikhte hi saath mei ek blank array bana liya karo
 
 
- 
+ // when to use map koi case when we need to make new array from an array 
+
+
+
+ //=========================Filter in array===============================>
+
+    let newarr1 = arr1.filter(function(val){
+        if(val>100) return true;    //Only retutn true value and skip false value
+
+    })
+
+    
