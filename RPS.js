@@ -652,3 +652,7 @@ let arr1 =[45,865,46,78,452,45]
 let sr = arr1.sort(function(a,b){
     return b-a;
 })
+
+
+//=========================Map method in Array ======================>
+    
