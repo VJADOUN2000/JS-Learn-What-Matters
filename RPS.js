@@ -662,3 +662,15 @@ arr1.forEach(function(val){
     console.log(val+5)
 })
 
+//===========================Map method in Array============================>
+
+ //map srf tab use karna hai jab aapko naya array banana hai pichhle array ke data ke basis  par
+ 
+ let newarr= arr1.map(function(val){
+        if (val>100) return 12;
+ })
+
+ // map dikhte hi saath mei ek blank array bana liya karo
+
+
+ 
