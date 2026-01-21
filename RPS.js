@@ -713,4 +713,11 @@ let any = arr3.some(function(val){
     return val>85          // Will return true or false value only
 })
 
+//==================================Every in Array==============================>
+
+let every= arr3.every(function(val){
+    return val>50;            // will check if every value in arry is satisfying the condition 
+                            // Answer in true or false only
+})
+
 
