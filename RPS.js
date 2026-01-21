@@ -721,3 +721,10 @@ let every= arr3.every(function(val){
 })
 
 
+//  ========================Destructuring  in Arrray ========================>
+
+    let ary = [1,2,3,4,5,6]
+
+    let [c,d,,,,k] = ary;  // will store val of array in respective variable
+
+    
