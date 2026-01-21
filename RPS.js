@@ -684,4 +684,14 @@ arr1.forEach(function(val){
 
     })
 
-    
+//===============================Reduce in Array==============================>
+
+let arr2 = [45,2,6,4,782,356,545]
+
+
+let ans =arr2.reduce(function(accumulator, val){
+    return accumulator+ val;
+},0);
+
+// will do Questions to understand it properly
+
