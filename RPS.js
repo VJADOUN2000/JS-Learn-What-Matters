@@ -695,3 +695,9 @@ let ans =arr2.reduce(function(accumulator, val){
 
 // will do Questions to understand it properly
 
+
+//===========================Find in Array=================================>
+
+ let finarray = arr2.find(function(val){
+    return val ==782;        // Will return val if condition is true 
+ })
