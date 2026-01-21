@@ -699,5 +699,18 @@ let ans =arr2.reduce(function(accumulator, val){
 //===========================Find in Array=================================>
 
  let finarray = arr2.find(function(val){
-    return val ==782;        // Will return val if condition is true 
+    return val ==782;        // Will return val if condition is true or give the firast matched or true value
  })
+
+
+ //============================some in array===================================>
+
+// Example => Ro check any student in our class is genius by checking marks of students above 85
+
+let arr3 = [45,78,65,23,90,80]
+
+let any = arr3.some(function(val){
+    return val>85          // Will return true or false value only
+})
+
+
