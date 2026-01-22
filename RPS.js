@@ -728,3 +728,15 @@ let every= arr3.every(function(val){
     let [c,d,,,,k] = ary;  // will store val of array in respective variable
 
     
+//========================Spread arrary =============================>
+
+    let arr4 = [45,7,454,21,2,4]
+
+    let arr5 = [...arr4] // will create new array with same a sarr4
+    
+    arr5[1] = 45;
+
+    
+
+
+
