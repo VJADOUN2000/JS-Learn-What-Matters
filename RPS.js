@@ -766,9 +766,14 @@ newfruit.push("kiwi");
 // Push is used to add element in last position
 //unshift is used to add element in satrting of array
 
+//Q5  ==> Skip because it is simple pop method
 
-//
+//Q6.  Insert "Red and "Blue at index 1 in this array
 
+
+let colors =["Green","Yellow"]
+
+colors.splice(1,0,"Red","Blue");  // add two new colors in index 1
 
 
 
