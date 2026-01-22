@@ -736,7 +736,39 @@ let every= arr3.every(function(val){
     
     arr5[1] = 45;
 
+
+//=======================Practice Question==============================>
     
+
+//Q1. Create an array with 3 fruits and print the third one
+
+
+let fruits = ["apple","Mango","banana"]
+
+console.log(fruits[2]);
+
+//Q2. Add "guava" at the end and "pineapple" at the beginning of this array
+
+fruits.push("guava");
+fruits.unshift("pineapple");
+
+
+//Q3 Replace "Banana with "kiwi" in this array
+
+let newfruit =["apple", "banana"]
+
+newfruit.pop();
+newfruit.push("kiwi");
+
+
+//Q4. what is differences b/w .push() and .unshift()?
+
+// Push is used to add element in last position
+//unshift is used to add element in satrting of array
+
+
+//
+
 
 
 
