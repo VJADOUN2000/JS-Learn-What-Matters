@@ -786,4 +786,8 @@ let newitems = items.slice(2,5)
 
 //splice => edit the array, chnage original array, removed array
 
+//Q8. Sort array alphabetically and then reverse it
+let names =["Zara","Arjun","Mira","Bhavya"]
 
+names.sort();  // willl work with function in bracket
+names.reverse();
