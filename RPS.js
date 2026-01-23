@@ -791,3 +791,15 @@ let names =["Zara","Arjun","Mira","Bhavya"]
 
 names.sort();  // willl work with function in bracket
 names.reverse();
+
+//or
+
+names.sort().reverse()
+
+//Q9.use .map() to square each number
+
+let arr45= [1,2,3,4,5,];
+
+let newarr45= arr45.map(function(val){
+    return val* val;
+})
