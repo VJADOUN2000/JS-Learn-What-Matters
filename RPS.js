@@ -776,4 +776,8 @@ let colors =["Green","Yellow"]
 colors.splice(1,0,"Red","Blue");  // add two new colors in index 1
 
 
+//Q7 Extract only 3 elemts from this array
 
+let items = [1,2,3,4,5,6]
+
+let newitems = items.slice(2,5)
