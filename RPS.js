@@ -781,3 +781,9 @@ colors.splice(1,0,"Red","Blue");  // add two new colors in index 1
 let items = [1,2,3,4,5,6]
 
 let newitems = items.slice(2,5)
+
+// Splic => copy the array , do not chnage array , return new array
+
+//splice => edit the array, chnage original array, removed array
+
+
