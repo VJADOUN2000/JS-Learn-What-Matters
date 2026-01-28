@@ -803,3 +803,8 @@ let arr45= [1,2,3,4,5,];
 let newarr45= arr45.map(function(val){
     return val* val;
 })
+
+//Q10. use .filter() to filter out numbers greater than 10
+let arr56 = [5,12,9,20,45];
+
+
