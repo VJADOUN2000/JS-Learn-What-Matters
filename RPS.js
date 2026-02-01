@@ -823,3 +823,13 @@ let newarr57 = arr57.reduce(function(acc, val){
 },0);
 
 console.log(newarr57);
+
+//Q12. USE .find() to get first number less than 10":
+
+let arr58 = [12,15,3,8,20]
+
+let newarr58=arr58.find(function(val){
+    return val <10;
+})
+
+console.log(newarr58);
