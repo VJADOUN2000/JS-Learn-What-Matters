@@ -807,4 +807,8 @@ let newarr45= arr45.map(function(val){
 //Q10. use .filter() to filter out numbers greater than 10
 let arr56 = [5,12,9,20,45];
 
+let newarr56=arr56.filter((val) => {
+    return val>10;
+})
 
+console.log(newarr56)
