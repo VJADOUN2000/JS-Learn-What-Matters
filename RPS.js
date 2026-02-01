@@ -812,3 +812,14 @@ let newarr56=arr56.filter((val) => {
 })
 
 console.log(newarr56)
+
+
+//Q11. use Reduce() to find the sum of this array:
+
+let arr57= [10,20,30];
+
+let newarr57 = arr57.reduce(function(acc, val){
+    return acc+val;
+},0);
+
+console.log(newarr57);
