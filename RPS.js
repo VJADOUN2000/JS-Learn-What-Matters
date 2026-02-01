@@ -833,3 +833,14 @@ let newarr58=arr58.find(function(val){
 })
 
 console.log(newarr58);
+
+//Q13. USE .Some to check if any student has scored below 35;
+
+
+let arr59 =[45,85,60,28,31]
+
+let newarr59 = arr59.some(function(val){
+    return val<35;
+})
+
+console.log(newarr59);
