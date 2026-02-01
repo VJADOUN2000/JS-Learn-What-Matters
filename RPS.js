@@ -844,3 +844,15 @@ let newarr59 = arr59.some(function(val){
 })
 
 console.log(newarr59);
+
+//Q14. Use .every() to check if all numbers are even
+
+let arr60 = [2,6,8,10,14]
+
+let newarr60 =arr60.every(function(val){
+    return val%2 ===0;
+})
+
+console.log(newarr60);
+
+
