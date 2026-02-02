@@ -866,4 +866,11 @@ console.log(firstName)
 console.log(lastNmae)
 
 
-//Q16. 
+//Q16. merge two array using spread operator
+
+let a5 =[45,75];
+let b5 = [45,78,56]
+
+let c5 =[...a5,...b5]
+
+console.log(c5);
