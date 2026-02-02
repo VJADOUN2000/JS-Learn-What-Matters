@@ -856,3 +856,14 @@ let newarr60 =arr60.every(function(val){
 console.log(newarr60);
 
 
+// Q15. Destructure this array to get firstName and lastName:
+
+let fullName =["Vikrant", "Singh"];
+
+let [firstName,lastNmae] =fullName;
+
+console.log(firstName)
+console.log(lastNmae)
+
+
+//Q16. 
