@@ -883,3 +883,10 @@ console.log(c5);
  countries = ["India", ...countries]
 
  console.log(countries);
+
+
+ //Q18. clone this array (mot reference):
+
+ let aar60 = [1,2,3,4]
+ 
+ let arr61 = [...arr60, 45]
