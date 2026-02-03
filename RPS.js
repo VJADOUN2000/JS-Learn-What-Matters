@@ -890,3 +890,18 @@ console.log(c5);
  let aar60 = [1,2,3,4]
  
  let arr61 = [...arr60, 45]
+
+//=================== Common Confusion in aray ========================>
+
+    //1 Splice vs slice
+
+    // splice-> chnage the original array and add, remove, or replace elements
+    //slice -> made a new array or extract part of an array
+
+    //2. map vs foreach
+
+    // map - Creates a new array | Used when you want to transform data
+    //foreach - to loop in for some reason for array
+    
+
+ //============================Objects============================>
