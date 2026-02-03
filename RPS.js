@@ -874,3 +874,12 @@ let b5 = [45,78,56]
 let c5 =[...a5,...b5]
 
 console.log(c5);
+
+//Q17. Add "India" to the start of this array using spread: 
+
+ let countries = ["USA", "UK"]
+ 
+
+ countries = ["India", ...countries]
+
+ console.log(countries);
