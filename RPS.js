@@ -909,3 +909,10 @@ console.log(c5);
     // arr.sort((a,b)=> a-b)---> Correct way    
 
  //============================Objects============================>
+
+// what is object?
+
+let obj ={
+    name: "Vikrant",
+    age: 25
+}
