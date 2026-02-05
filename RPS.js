@@ -901,7 +901,11 @@ console.log(c5);
     //2. map vs foreach
 
     // map - Creates a new array | Used when you want to transform data
-    //foreach - to loop in for some reason for array
-    
+    //foreach - to loop in for some reason for array 
+
+    //3. Array (big blunder with .sort)
+
+    // [100,45,2] ---> "200", "100", "2" ----> Wrong sorting 
+    // arr.sort((a,b)=> a-b)---> Correct way    
 
  //============================Objects============================>
