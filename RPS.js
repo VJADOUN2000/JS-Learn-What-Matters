@@ -905,3 +905,13 @@ console.log(c5);
     
 
  //============================Objects============================>
+
+let obj ={
+    name: "Vikrant",
+    age: 25,
+    khaana: "dal chaawal",
+};
+
+console.log(obj.khaana);
+
+    
