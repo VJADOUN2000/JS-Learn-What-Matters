@@ -922,3 +922,19 @@ let vik = "name"                     //Bracket Notation (Dynamic Property Access
 
 console.log(obj[vik])
 
+
+// Nesting and deep acess
+
+const user ={
+    name: "Vikrant",
+    age: 24,
+    address: {
+        location: {
+            place: {
+                current: "New Delhi"
+            }
+        }
+    }
+}
+
+console.log(user.address.location.place.current);
