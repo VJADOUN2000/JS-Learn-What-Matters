@@ -914,5 +914,11 @@ console.log(c5);
 
 let obj ={
     name: "Vikrant",
-    age: 25
+    age: 25,
+    kahnaa: "Milk"
 }
+
+let vik = "name"                     //Bracket Notation (Dynamic Property Access //
+
+console.log(obj[vik])
+
