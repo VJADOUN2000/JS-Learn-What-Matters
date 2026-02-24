@@ -931,10 +931,20 @@ const user ={
     address: {
         location: {
             place: {
-                current: "New Delhi"
+                current: "New Delhi",
+                previous: "Aligarh"
             }
         }
     }
 }
 
 console.log(user.address.location.place.current);
+
+
+//-------Object destructuring------------>
+
+//It is used for not repeating dot notation mutiple times(deep)
+let {current, previous} =user.address.location.place
+
+console.log(current);
+console.log(previous);
