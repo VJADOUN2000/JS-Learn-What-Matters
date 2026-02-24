@@ -912,11 +912,11 @@ console.log(c5);
 
 // what is object?
 
-let obj ={
-    name: "Vikrant",
-    age: 25,
-    kahnaa: "Milk"
-}
+// let obj ={
+//     name: "Vikrant",
+//     age: 25,
+//     kahnaa: "Milk"
+// }
 
 let vik = "name"                     //Bracket Notation (Dynamic Property Access //
 
@@ -948,3 +948,15 @@ let {current, previous} =user.address.location.place
 
 console.log(current);
 console.log(previous);
+
+
+//---------------Looping in Object-------------->
+
+let obj ={
+    name: "Vikrant",
+    age: 25,
+    kahnaa: "Milk"
+}
+for (let key in obj){
+    console.log(obj[key]);
+}
