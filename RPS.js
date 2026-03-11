@@ -912,11 +912,11 @@ console.log(c5);
 
 // what is object?
 
-// let obj ={
-//     name: "Vikrant",
-//     age: 25,
-//     kahnaa: "Milk"
-// }
+let obj ={
+    name: "Vikrant",
+    age: 25,
+    kahnaa: "Milk"
+}
 
 let vik = "name"                     //Bracket Notation (Dynamic Property Access //
 
@@ -938,6 +938,9 @@ const user ={
     }
 }
 
+
+
+
 console.log(user.address.location.place.current);
 
 
@@ -952,11 +955,26 @@ console.log(previous);
 
 //---------------Looping in Object-------------->
 
-let obj ={
-    name: "Vikrant",
-    age: 25,
-    kahnaa: "Milk"
+let object = {
+    name: "Vikrant singh",
+    age: 24,
+    email: "Test@gmail.com"
+};
+
+
+for(let key in object){
+    console.log(key, object[key]);
 }
-for (let key in obj){
-    console.log(obj[key]);
-}
+
+///=================Object.keys===============>
+
+console.log(Object.keys(object)); //=== will print all keys of object in array form
+
+// ===================Object.entries=============>
+
+console.log(Object.entries(object));  // Will create array of key and within another array with value also
+
+
+
+//=========================Copying Oject================================>
+
