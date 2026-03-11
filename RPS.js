@@ -978,3 +978,17 @@ console.log(Object.entries(object));  // Will create array of key and within ano
 
 //=========================Copying Oject================================>
 
+//let obj2 ={...object};
+
+//console.log(obj2);
+// Object.assign  --> same as spread like to copy another object value
+
+//let obj2 = Object.assign({}, object);  // and we can also add extra value or property too 
+
+let obj2 = Object.assign({Gender: "Male"}, object); 
+
+console.log(obj2);
+
+
+//deep location
+
